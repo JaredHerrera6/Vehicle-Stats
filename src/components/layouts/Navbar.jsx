@@ -1,12 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import {Link} from 'react-router-dom'
-import '../../navbar.css'
+import {FaCar} from 'react-icons/fa'
+import '../../index.css'
 
 function Navbar({title}) {
   return (
     <nav className='navbar'>
       <Link to = "/"className='project-title'>
+        <FaCar className = "auto-pic"/>
         {title}
       </Link>
       <div className='navbar-links'>

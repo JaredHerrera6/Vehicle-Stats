@@ -12,11 +12,18 @@ body{
     background-color: crimson;
     color:whitesmoke
 }
+
 .project-title{
+    padding: 0;
     font-size: 2rem;
     margin:.5rem;
     color:white;
     text-decoration: none;
+}
+.auto-pic{
+    float: left;
+    position: relative;
+    margin-right: auto;
 }
 .navbar-links ul{
     margin:0;
